@@ -1,8 +1,9 @@
-# Node Api Template
+# Message Broker Exampke
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-My personal typescript nodejs configuration
+This is my first Message Broker concrete example to pratice Queueing concepts.
+This project is using [Kafka](https://kafka.apache.org/) broker to manage messages while a simple producer and consumer example was implemented.
 
 ## Authors
 
@@ -96,9 +97,12 @@ In this project, we used the following technologies:
 - [ESLint](https://github.com/eslint/eslint) - ESLint to padronize the project code.
 - [Prettier](https://prettier.io/) - To format code automatically.
 - [Stryker](https://stryker-mutator.io/docs/General/dashboard/) - To run mutation tests in project and use mutation badges.
+- [Kafka](https://kafka.apache.org/) - As message broker
+- [Docker/Docker-Compose](https://www.docker.com/) - To virtualize kafka as container
 
 # References
 
+- [Kafka: Produtores, Consumidores e streams](https://cursos.alura.com.br/course/kafka-introducao-a-streams-em-microservicos)
 - [Waldemar Neto - DO ZERO A PRODUÇÃO: APRENDA A CONSTRUIR UMA API NODE.JS COM TYPESCRIPT ](https://github.com/waldemarnt/node-typescript-api)
 - [@brunohafonso95](https://github.com/brunohafonso95)
 - [Glaucia Lemos - Curso Typescript Zero To Hero](https://github.com/glaucia86/curso-typescript-zero-to-hero)
